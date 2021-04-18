@@ -17,13 +17,13 @@ else :
 
 # operators in, not in
 letter = 'a'
-if letter in "ball" :
+if letter in "ball":
 	print("letter \"{}\" is in the word \"ball\"".format(letter))
 
 # and, or
-if letter in "ball" and age == 0 :
+if letter in "ball" and age == 0:
 	print("you've got the bonus message")
 
 # interval with combination <
-if 14 <= age <= 18 :
+if 14 <= age <= 18:
 	print("you are a teenager")

@@ -17,19 +17,19 @@ counter = 0
 
 while not flag :
 	#clear screen, posix for linux and mac, else for windows
-	if os.name == "posix" :
+	if os.name == "posix":
 		os.system("clear")
 	else : 
 		os.system("cls")
 
-	print("enter 1 to leave, attempt number ",counter+1)
+	print("enter 1 to leave, attempt number ", counter + 1)
 	word = input("> ")
 	
-	if word == "1" :
+	if word == "1":
 		flag = True
-	elif word =="0" :
+	elif word =="0":
 		continue
-	if counter == 9 :
+	if counter == 9:
 		print("too many attempts (10 max)")
 		break
 	counter+=1
@@ -44,16 +44,16 @@ for c in var :
 print()
 
 # display01234
-for i in range(5) :
+for i in range(5):
 	print(i, end = '')
 print()
 
 # display 2345
-for j in range(2, 6) :
+for j in range(2, 6):
 	print(j, end = '')
 print()
 
 # Increment the sequence with 3 (default is 1)
-for x in range(2, 30, 3) :
+for x in range(2, 30, 3):
 	print(x, end = '')
 print()
