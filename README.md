@@ -1,6 +1,6 @@
 # python_FormationVideo
 
-channel youtube : FormationVideo
+channel youtube : FormationVideo https://www.youtube.com/channel/UCS2e0hEJMhwd6bNscS60xTg
 
 link playlist python class: https://www.youtube.com/playlist?list=PLrSOXFDHBtfHg8fWBd7sKPxEmahwyVBkC 
 
