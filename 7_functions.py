@@ -77,6 +77,17 @@ def calcul_sum(num1, num2):
 print("sum of {} and {} = {}".format(num1, num2, calcul_sum(num1, num2)))
 
 
+# lambda, anonymous fonction (1 instruction only)
+var = lambda: print("hello world")
+var()
+
+
+# lamba + params
+num1 = 2
+num2 = 3
+
+result = lambda number1,number2: num1 + num2
+print("{} + {} = {}".format(num1, num2, result(num1, num2)))
 
 
 
