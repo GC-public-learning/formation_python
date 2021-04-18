@@ -1,9 +1,9 @@
 # python_FormationVideo
 
-FormationVideo : learning python playlist
+channel youtube of creator : FormationVideo https://www.youtube.com/channel/UCS2e0hEJMhwd6bNscS60xTg
 
-link playlist youtube : https://www.youtube.com/playlist?list=PLrSOXFDHBtfHg8fWBd7sKPxEmahwyVBkC 
+link playlist python class : https://www.youtube.com/playlist?list=PLrSOXFDHBtfHg8fWBd7sKPxEmahwyVBkC 
 
 files maked with sublimetext
 
-thanks to the youtuber Jason Champagne
+thanks to the youtuber "Jason Champagne" ^^
