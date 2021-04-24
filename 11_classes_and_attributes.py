@@ -8,7 +8,7 @@ class Human:
 	"""
 	class for humans
 	"""
-	# class attributes (same value for all objects)
+	# class attributes (same value for all objects (static in c#))
 	# !! mandatory value assignment !!
 	nbr_humans_created = 0
 
@@ -19,7 +19,7 @@ class Human:
 		# object attributes
 		self.name = _name
 		self.age = _age
-		self.id = Human.nbr_humans_created+1
+		self.id = Human.nbr_humans_created + 1
 		Human.nbr_humans_created += 1
 
 # object
