@@ -1,6 +1,6 @@
 #coding:utf-8
 
-""" methods,
+""" methods
 -------------"""
 
 class Car: 
@@ -42,7 +42,7 @@ class Car:
 	# prevent python to use such method as class method
 	change_total_cars = classmethod(change_total_cars)
 
-	#static methods
+	# static methods
 	def print_hello():
 		print("Hello !")
 
