@@ -15,7 +15,7 @@ import os
 flag = False
 counter = 0
 
-while not flag :
+while not flag:
 	#clear screen, posix for linux and mac, else for windows
 	if os.name == "posix":
 		os.system("clear")
@@ -39,7 +39,7 @@ while not flag :
 #strings are recongnised as sequences
 #end ='' prohibit carriage return
 var = "hello world"
-for c in var :
+for c in var:
 	print(c, end = '')
 print()
 

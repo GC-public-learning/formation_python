@@ -51,7 +51,7 @@ print(s1.replace("o", "z"))
 # replace such string by such string (2 first occurrences)"
 print(s1.replace("o", "z", 2))
 
-# put all the word in a string into a list separate by such separator (a space here)
+# put all the word from a string into a list separate by such separator (a space here)
 print(s1.split(" "))
 
 # isalpha, isdigit, isdecimal, isnumeric, isalphanum
