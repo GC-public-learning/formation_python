@@ -1,3 +1,3 @@
-# my project & formations
+# my python project & formations
 
 Hello ! welcome to my github
