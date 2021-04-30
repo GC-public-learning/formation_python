@@ -33,8 +33,9 @@ def get_position(t):
 
 v1, v2 = get_position(t4)
 v1 = 1000
+print(v1, v2)
 
 t6 = get_position(t4)
 # t6[0] = 100 doesn't work besause it's a tuple with this way
-print(v1, v2)
+
 
