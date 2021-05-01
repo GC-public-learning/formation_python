@@ -6,3 +6,5 @@ link playlist python class : https://www.youtube.com/watch?v=82KLS2C_gNQ&list=PL
 
 
 thanks to the youtuber " Machine Learnia" ^^
+
+content comming soon...
