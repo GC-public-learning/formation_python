@@ -122,14 +122,23 @@ print(l[:])
 inventory = ["quatre", "bloc", "trois"]
 print("_".join(inventory))
 
-# make a clone
-inventory2 = inventory # doesn't work (same memory adress)
+# cloning 1st way
+print("\ncloning"
+	"\n---------------------")
 
-import copy
-inventory2 = copy.deepcopy(inventory2) # good way !
-inventory2.append("zoom")
+inventory2 = inventory # doesn't work (same memory adress)
+inventory2 = inventory.copy()
+inventory2.append(1000)
 print(inventory)
 print(inventory2)
+
+# cloning 2nd way
+import copy
+inventory3 = copy.deepcopy(inventory) # good way !
+inventory3.append("zoom")
+print(inventory)
+print(inventory3)
+print()
 
 # concatenate 2 list
 inventory += inventory2
@@ -137,3 +146,24 @@ print(inventory)
 inventory.extend(inventory2)
 print(inventory)
 
+# IndexError
+try: 
+	print(inventory[100])
+except IndexError:
+	print("Error, index not found !")
+
+
+# recall chap7 (functions)
+# enter an unknown number of params (list), '*'' is not a pointer !
+def show_and_return_some_items(*items):
+	# browse and print each item of the list "items" 
+	for i in items:
+		print(i)
+
+	# print the list "items" directly
+	print("list:", items)
+
+	return items
+
+my_list = show_and_return_some_items("bingo", 2, True)
+print(my_list)
