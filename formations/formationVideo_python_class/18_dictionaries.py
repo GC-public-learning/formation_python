@@ -1,7 +1,7 @@
 #coding:utf-8
 
 """ dictionaries
--------------------""", 
+-------------------"""
 
 # helper
 if False: help(dict)

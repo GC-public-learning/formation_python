@@ -1,0 +1,4 @@
+rat
+cat
+dog
+elephant

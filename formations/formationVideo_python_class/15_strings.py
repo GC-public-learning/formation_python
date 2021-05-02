@@ -8,7 +8,10 @@ if False: help(str)
 
 s1 = "   hello world how are you !? " 
 
-# all string methods work with a copy
+# ! all string methods work with a copy !
+
+# add string on the end of an other one
+s1 += "fine i hope !"
 
 # transform a string in uppercase
 print(s1.upper())
