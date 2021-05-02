@@ -94,7 +94,7 @@ a1.show_attributes()
 import pickle
 
 # write an object in binary mode with "pickle" library
-# file created automatically if the file name doesn't exist !
+# file automatically created if the file name doesn't exist !
 with open("files/animals_binary", 'wb') as stream_animals:
 	record = pickle.Pickler(stream_animals)
 	record.dump(a1)
