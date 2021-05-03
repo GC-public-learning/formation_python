@@ -37,11 +37,6 @@ main_app.geometry(geo)
 # allow or forbid resizing on width an height
 main_app.resizable(width = False, height = True)
 
-# position
-
-
-# geometry
-
 
 # make a infinite loop on the window
 main_app.mainloop()
