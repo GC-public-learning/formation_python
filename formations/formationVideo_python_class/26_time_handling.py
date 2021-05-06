@@ -36,10 +36,10 @@ strftime
 %Y : years (4 digits)
 %y : years (2 digits)
 %m : months
-%b : month name abbreviated
-%B : month name full
-%a : weekday abbreviated
-%A : weekday full
+%b : month names abbreviated
+%B : month names full
+%a : weekdays abbreviated
+%A : weekdays full
 %d : days of the month
 %j : days of the year
 %H : hours (24)
