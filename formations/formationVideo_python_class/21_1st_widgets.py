@@ -21,12 +21,14 @@ entry_pwd = Entry(main_app, show = "*") # show : replace chars by *
 
 # button
 btn_quit = Button(main_app, text = "quit")
+
 def say_hello():
 	print("Hello !")
+
 btn_say_hello = Button(main_app, text = "say Hello !", command = say_hello)
 
 
-#common params
+# common params
 # width in px or not, height, command
 
 """ use widgets (autocenter)
