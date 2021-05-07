@@ -7,7 +7,7 @@
 
 from datetime import *
 
-d1 = datetime(2021, 5, 7, 4, 20, 34) # date+ time
+d1 = datetime(2021, 5, 7, 4, 20, 34) # date + time
 d2 = datetime(2021, 5, 7, 4, 20, 33)
 d3 = date(2021, 5, 7) # date
 d4 = time(4, 31, 30) # time
