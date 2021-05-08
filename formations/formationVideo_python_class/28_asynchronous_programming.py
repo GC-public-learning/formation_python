@@ -51,7 +51,7 @@ class MyProcess(threading.Thread):
 	def run(self):
 		# super().run() not needed beacause run is an empty  dedicated method
 		# for developers who want to overload it in order to execute such
-		# functions when the thread are started...
+		# functions when the thread is started...
 		i = 0
 		while i < 3:
 
