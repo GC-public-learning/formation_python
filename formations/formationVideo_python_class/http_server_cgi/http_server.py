@@ -10,7 +10,7 @@ address = ("", port)
 
 server = http.server.HTTPServer
 
-# CGI HTTP request manager
+# CGI (common gateway interface) HTTP request manager
 # using CGI interface (no longer work with html files !)
 # -> execute files instead of read 
 handler = http.server.CGIHTTPRequestHandler
