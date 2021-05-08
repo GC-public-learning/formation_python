@@ -15,9 +15,8 @@ class Vehicle:
 		self._position = 0
 
 	# object methods
-
 	def move(self, value):
-		self._position += value
+		print("moving.................. !")
 
 
 	# properties
@@ -48,6 +47,8 @@ class Car(Vehicle):
 
 	# overload mother methods
 	def move(self, value):
+		# call the mother class if you want keep features of the mother function
+		super().move(value)
 		self._position += (3 * value)
 
 # child class
