@@ -15,6 +15,8 @@ print(type(age))
 print(txt.format(name,age))
 print("My name is {} and i'm {} years old".format(name, age))
 
+# f with {} 
+print(f"Hello ! My name is {name} and i'm {age} years old")
 
 # capture data, texte between () showed on the screen
 age2 = input("enter age : ")
