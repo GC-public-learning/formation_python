@@ -4,7 +4,7 @@
 ------------------"""
 
 """
-making a form and handle data from form
+making a form and handling data from form
 
 http_server_cgi/
 	form.py
