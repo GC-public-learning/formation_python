@@ -2,6 +2,7 @@
 
 """ HTTP server
 -------------------""" 
+# need to be root to be executed
 
 import http.server
 import socketserver

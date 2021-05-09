@@ -6,9 +6,6 @@
 # replace the traditional header "#coding:utf-8" by #!/usr/bin/python3
 # because the file need to be recognized as a python script
 
-# mendatory instruction to define the content-type
-print("Content-Type:text/html; charset=utf-8\n")
-
 
 header = """<html lang="en">
 <head>
@@ -18,6 +15,12 @@ header = """<html lang="en">
 <body>"""
 
 footer = """</body></html>"""
+
+
+# display
+
+# mendatory instruction to define the content-type
+print("Content-Type:text/html; charset=utf-8\n")
 
 print(header)
 print("<h1>Welcome to the index.py webpage !</h1>")
