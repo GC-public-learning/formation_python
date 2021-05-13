@@ -4,7 +4,7 @@
 # make the file executable and readable by all users -> chmod 755
 
 # replace the traditional header "#coding:utf-8" by #!/usr/bin/python3
-# because the file need to be recognized as a python script
+# because the file needs to be recognized as a python script
 
 
 header = """<html lang="en">
