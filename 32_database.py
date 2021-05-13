@@ -14,7 +14,7 @@ following instructions :
 
 		command lines
 		-----------------
-		.save dbname -> to make a file with de db
+		.save dbname -> to make a file with the db
 		.open dbname -> to open the db
 		.read namescriptsql -> make the tables (create.sql)
 		.read namescriptsql -> add records (insert.sql) (optional)
