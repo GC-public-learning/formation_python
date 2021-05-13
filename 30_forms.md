@@ -12,7 +12,3 @@ created files :
 <br/>&emsp;- [result.py](https://github.com/Geoffrey-Carpentier/formation_python/blob/main/http_server_cgi/result.py)
 
 
-! dont't forget to make the files readable and executable by all users
-	-> chmod 755 filename.py
-
-
