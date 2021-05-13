@@ -4,6 +4,7 @@
 
 
 1) making one simple HTTP server with a .html webpage
+_____________________________________________________
 
 created folders :
 ----------------
@@ -18,6 +19,7 @@ created files :
 
   
 2) making one CGI HTTP server with a .py webpage
+________________________________________________
 
 created folders :
 ----------------
