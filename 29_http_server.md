@@ -3,7 +3,7 @@
 # HTTP server
 
 
-<h2>1) making one simple HTTP server with a .html webpage</h2>
+## 1) making one simple HTTP server with a .html webpage
 
 
 created folders :
