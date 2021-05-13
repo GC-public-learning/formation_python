@@ -6,11 +6,12 @@
 ## 1) making one simple HTTP server with a .html webpage
 
 
-### created folders :
-
+created folders :
+-----------------
 [http_server/](https://github.com/Geoffrey-Carpentier/formation_python/tree/main/http_server)
   
-### created files :
+created files :
+---------------
 [http_server/](https://github.com/Geoffrey-Carpentier/formation_python/tree/main/http_server)
 <br/>&emsp;- [http_server.py](https://github.com/Geoffrey-Carpentier/formation_python/blob/main/http_server/http_server.py)
 <br/>&emsp;- [index.html](https://github.com/Geoffrey-Carpentier/formation_python/blob/main/http_server/index.html)
