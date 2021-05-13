@@ -3,7 +3,7 @@
 # HTTP server
 
 
-## 1) making one simple HTTP server with a .html webpage
+### 1) making one simple HTTP server with a .html webpage
 
 
 created folders :
@@ -18,7 +18,7 @@ created files :
 
 
   
-## 2) making one CGI HTTP server with a .py webpage
+### 2) making one CGI HTTP server with a .py webpage
 
 
 created folders :
