@@ -2,7 +2,7 @@
 
 making a server and a client that use the socket library to manage connexions between thems with such adress and port. 
 
-created folder :
+created folders :
 ----------------
 [sockets/](https://github.com/Geoffrey-Carpentier/formation_python/tree/main/sockets)
 
