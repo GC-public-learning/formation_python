@@ -13,8 +13,6 @@ height = 480
 res = (width, height)
 red = (255, 0, 0)
 black = (0, 0, 0)
-i = 0
-
 
 
 """
@@ -26,7 +24,6 @@ rect.move() rect.move_ip()
 rect.inflate() -> reduce or enlarge the rect
 rect.cooliderect() -> detect collisions
 
-
 """
 
 # conf
@@ -35,7 +32,7 @@ pygame.display.set_caption("My pygame game ^^ !")
 window_surface = pygame.display.set_mode(res)
 
 
-# draw a rectangle
+# draw a rectangle and a copy of it
 start_position_x = 200
 start_position_y = 50
 width = 100
@@ -50,16 +47,13 @@ pygame.draw.rect(window_surface, red, rect_shape2)
 # update display
 pygame.display.flip()
 
-
-
-
 launched = True
 while launched:
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
 			launched = False
 
-	# stop loop when the shapes collide
+	# stop loop when the 2 rect shapes collide
 	while not rect_shape.colliderect(rect_shape2):
 		time.sleep(0.01)
 		window_surface.fill(black)
@@ -69,5 +63,4 @@ while launched:
 		pygame.draw.rect(window_surface, red, rect_shape)
 		pygame.draw.rect(window_surface, red, rect_shape2)
 		pygame.display.flip()
-		i+=1
 
