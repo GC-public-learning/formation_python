@@ -1,6 +1,6 @@
 #coding:utf-8
 
-""" pygame draw a surface
+""" pygame display image
 -----------------------------
 """
 
