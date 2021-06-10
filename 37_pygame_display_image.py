@@ -11,13 +11,15 @@ width = 800
 height = 600
 res = (width, height)
 white_color = (255, 255, 255)
-png_python = pygame.image.load("img/python.png") # return a surface
-jpg_snake = pygame.image.load("img/snake.jpg")
+
 
 # config
 pygame.init()
 pygame.display.set_caption("My pygame game ^^ !")
 window_surface = pygame.display.set_mode(res)
+
+png_python = pygame.image.load("img/python.png") # return a surface
+jpg_snake = pygame.image.load("img/snake.jpg")
 jpg_snake.convert()
 png_python.convert_alpha() # alpha to handle transparency 
 
