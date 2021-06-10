@@ -1,7 +1,7 @@
 #coding:utf-8
 
-""" widget positioning
---------------------------"""
+""" tkinter widget positioning
+---------------------------------"""
 
 from tkinter import *
 
