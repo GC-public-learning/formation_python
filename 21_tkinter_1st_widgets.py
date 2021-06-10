@@ -1,7 +1,7 @@
 #coding:utf-8
 
-""" 1st widgets
-----------------------"""
+""" tkinter 1st widgets
+---------------------------"""
 
 from tkinter import *
 
