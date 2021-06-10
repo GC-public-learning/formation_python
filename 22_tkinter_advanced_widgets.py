@@ -1,7 +1,7 @@
 #coding:utf-8
 
-""" advanced widgets
------------------------"""
+""" tkinter advanced widgets
+------------------------------"""
 
 from tkinter import *
 
