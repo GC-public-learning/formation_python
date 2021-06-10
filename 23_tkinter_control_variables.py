@@ -1,7 +1,7 @@
 #coding:utf-8
 
-""" control variables
-------------------------"""
+""" tkinter control variables
+-------------------------------"""
 
 from tkinter import *
 
