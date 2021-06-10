@@ -1,6 +1,6 @@
 #coding:utf-8
 
-""" menu
+""" tkinter menu
 ------------------------"""
 
 from tkinter import *
