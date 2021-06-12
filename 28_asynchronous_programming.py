@@ -11,21 +11,21 @@ import threading
 ---------------------"""
 def process_1():
 	i = 0
-	while i < 3:
-		print(threading.currentThread())
+	while i < 10:
+		print(f'process 1 : {threading.currentThread()}')
 		time.sleep(0.3)
 		i += 1
 
 def process_2():
 	i = 0
-	while i < 3:
-		print(threading.currentThread())
+	while i < 10:
+		print(f'process 2 : {threading.currentThread()}')
 		time.sleep(0.3)
 		i += 1
 
 # make objects Thread
-th_1 = threading.Thread(process_1())
-th_2 = threading.Thread(process_2())
+th_1 = threading.Thread(target=process_1)
+th_2 = threading.Thread(target=process_2)
 
 # start multiple task
 th_1.start()
@@ -53,7 +53,7 @@ class MyProcess(threading.Thread):
 		# for developers who want to overload it in order to execute such
 		# functions when the thread is started...
 		i = 0
-		while i < 3:
+		while i < 10:
 
 			# forbid others threads to be executed while 
 			# these instructions are executed(threads are not necessarily 
