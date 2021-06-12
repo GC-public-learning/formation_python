@@ -27,7 +27,7 @@ perso_font = pygame.font.Font("fonts/Jungle DF.ttf", 50)
 size_text_surface = perso_font.render(f"res : {res}", True, blue_color)
 window_surface.blit(size_text_surface, (x, y))
 
-# if a key steal down repeat the action
+# if a key stays down repeat the action
 # params 1 : time in ms left before the repetitions begin
 # params 2 : interval in ms for repetitions
 pygame.key.set_repeat(1,2)
