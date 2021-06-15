@@ -44,7 +44,7 @@ forest_sound = pygame.mixer.Sound("sounds/AMBForst_Forest (ID 0100)_BSB.ogg")
 cymbal_sound = pygame.mixer.Sound("sounds/MUSCPerc_Nepalese cymbal 1 (ID 2366)_BSB.ogg")
 forest_sound.play()
 
-# streaming with a play list (load overwite the old sound file !)
+# streaming with a play list (load() overwite the old sound file !)
 pygame.mixer.music.load("sounds/AMBForst_Forest (ID 0100)_BSB.ogg")
 pygame.mixer.music.play();
 
