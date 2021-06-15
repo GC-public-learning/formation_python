@@ -10,7 +10,6 @@ import pygame
 width = 640
 height = 480
 res = (width, height)
-blue_color = (0, 0, 255)
 white_color = (255, 255, 255)
 x = 10
 y = 10
